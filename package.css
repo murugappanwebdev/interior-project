@@ -1,0 +1,101 @@
+.backimage{
+    background-image: url(3d-rendering-modern-dining-room-living-room-with-retro-armchair-european-style.jpg);
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 40px;
+    color: whitesmoke;
+}
+.phonenumber h1{
+    text-align: center;
+
+}
+.backimage h1{
+    color: whitesmoke;
+}
+.points{
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.box1{
+    display: flex;
+}
+.image1{
+    width:30%;
+    height:50%;
+    margin-left: 60px;
+}
+.image2{
+    width: 30%;
+    height: 50%;
+    margin-left: 5px;
+}
+.image3{
+    width: 30%;
+    height: 50%;
+    margin-left: 5px;
+}
+.navbar{
+    width:100%;
+    margin: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:linear;
+     
+}
+.logo{
+    font-size: 32px;
+    font-weight: 700;
+    color: whitesmoke;
+    padding-left: 35px;
+     
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:whitesmoke;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    position: absolute;
+    background: orangered;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+    .navbar ul li:hover::after{
+        width: 100%;
+    }
+    .details h5{
+        color: orangered;
+    }
+    .details p{
+        font-size: 20px;
+    }
+    .details1 p{
+        font-size: 20px;
+    }
+    .details2 p{
+        font-size: 20px;
+    }
+    .details2 h5{
+        color: orangered;}
+     .details1 h5{
+        color: orangered;}
+       

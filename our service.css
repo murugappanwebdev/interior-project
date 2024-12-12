@@ -1,0 +1,90 @@
+.ourservice{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(345387.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.font{
+    font-size: 40px;
+}
+navbar{
+    width:100%;
+    margin: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:linear;
+     
+}
+.logo{
+    font-size: 32px;
+    font-weight: 700;
+    color: whitesmoke;
+    padding-left: 35px;
+     
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:whitesmoke;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    position: absolute;
+    background: orangered;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+    .navbar ul li:hover::after{
+        width: 100%;
+    }
+.insidecontent{
+    widows: 100%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50);
+    text-align: center;
+    color: whitesmoke;
+    padding-left:20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.insidecontent h1{
+    font-size: 50px;
+    margin-top: 80px;
+}
+.button{
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+button hover{
+    border: none;
+    transition: 0.05;
+
+}
+.list{
+    padding-right:100px;
+    text-transform: uppercase;
+}

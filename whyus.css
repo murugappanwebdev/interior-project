@@ -1,0 +1,83 @@
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    .pic{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(345387.jpg);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+    }
+    .pic h1{
+        color: whitesmoke;
+        padding-bottom: 50px;
+    }
+    .navbar{
+        width:100%;
+        margin: auto;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color:linear;
+         
+    }
+    .logo{
+        font-size: 32px;
+        font-weight: 700;
+        color: whitesmoke;
+        padding-left: 35px;
+         
+    }
+    .navbar ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color:whitesmoke;
+        text-transform: uppercase;
+    }
+    .navbar ul li::after{
+        content: '';
+        height: 3px;
+        width: 0;
+        position: absolute;
+        background: orangered;
+        left: 0;
+        bottom: -10px;
+        transition: 0.5s;
+    }
+    
+        .navbar ul li:hover::after{
+            width: 100%;
+        }
+        .notes h1{
+            padding-bottom: 20px;
+        }
+        .notesimg{
+            background-image: url(3d-rendering-modern-dining-room-living-room-with-retro-armchair-european-style.jpg);
+            height: 50vh;
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+            text-align: center;
+        }
+       .notesimg1 h1{
+        text-align: center;
+       }
+       .notesimg2 h1{
+        padding-bottom: 20px;
+       }
+       .notesimg2 p{
+        padding-bottom: 20px;
+       }
+       .notesimg3{
+        padding: 60px;
+        background-color: burlywood;
+       }
